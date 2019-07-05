@@ -59,6 +59,11 @@ new_scale_colour <- function() {
 #' @export
 #' @importFrom ggplot2 ggplot_add
 ggplot_add.new_aes <- function(object, plot, object_name) {
+  # To add default scales (I need to build the whole plot because they might be computed aesthetics)
+  if (is.null(plot$scales$get_scales(object))) {
+    plot$scales <- ggplot2::ggplot_build(plot)$plot$scales
+  }
+
   plot$layers <- bump_aes_layers(plot$layers, new_aes = object)
   plot$scales$scales <- bump_aes_scales(plot$scales$scales, new_aes = object)
   plot$labels <- bump_aes_labels(plot$labels, new_aes = object)
@@ -73,7 +78,16 @@ bump_aes_layers <- function(layers, new_aes) {
 bump_aes_layer <- function(layer, new_aes) {
   original_aes <- new_aes
 
+  # Get explicit mapping
   old_aes <- names(layer$mapping)[remove_new(names(layer$mapping)) %in% new_aes]
+
+  # If not explicit, get the default
+  if (length(old_aes) == 0) {
+    old_aes <- names(layer$stat$default_aes)[remove_new(names(layer$stat$default_aes)) %in% new_aes]
+    if (length(old_aes) == 0) {
+      old_aes <- names(layer$geom$default_aes)[remove_new(names(layer$geom$default_aes)) %in% new_aes]
+    }
+  }
   new_aes <- paste0(old_aes, "_new")
 
   old_geom <- layer$geom
@@ -127,11 +141,16 @@ bump_aes_scale <- function(scale, new_aes) {
 
     scale$aesthetics[scale$aesthetics %in% old_aes] <- new_aes
 
-    if (is.character(scale$guide)) {
-      scale$guide <- match.fun(paste("guide_", scale$guide, sep = ""))()
+    no_guide <- isFALSE(scale$guide) | isTRUE(scale$guide == "none")
+    if (!no_guide) {
+      if (is.character(scale$guide)) {
+
+        scale$guide <- match.fun(paste("guide_", scale$guide, sep = ""))()
+      }
+      scale$guide$available_aes[scale$guide$available_aes %in% old_aes] <- new_aes
     }
-    scale$guide$available_aes[scale$guide$available_aes %in% old_aes] <- new_aes
   }
+
   scale
 }
 

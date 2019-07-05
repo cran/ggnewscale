@@ -1,9 +1,9 @@
-d84dcfa0081c3db683e28c9065715995 *DESCRIPTION
+729c6f23934ae7db35de0b4192a55ba5 *DESCRIPTION
 883700660988a24a2973b0c2fa5f7aa8 *NAMESPACE
-04a2079d597ad8072cba125029232fcf *NEWS.md
+2d183e20c09b6e0487a9fa46df078da3 *NEWS.md
 36d0f0a56484741301271936c9edf613 *R/ggnewscale-package.R
-0d45620ede6bea5259b9e6f899a1361d *R/new-scale.R
-27864c029e39a2ee9c4443d2baa00661 *README.md
-f24ed8c5f58339e5e0e98d715413581b *man/figures/README-unnamed-chunk-1-1.png
+d3ee8ba05b7fec0affcee63b05907574 *R/new-scale.R
+89cd17bcaaf66f3b78bfdd73125e0c11 *README.md
+d1d1421ec5556aeed70ab076f6aefc3a *man/figures/README-unnamed-chunk-1-1.png
 988827719147d271515b6fb4fba556f0 *man/ggnewscale-package.Rd
 fd790003c2a38356c94589c61ff8085b *man/new_scale.Rd
