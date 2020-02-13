@@ -1,11 +1,11 @@
-1899fb414157b1eb09e32f4032d72b1e *DESCRIPTION
-883700660988a24a2973b0c2fa5f7aa8 *NAMESPACE
-39d4fea9a522a55e77355e86dfa3fe20 *NEWS.md
+7c2a66ac5fc63d50be484a69fa080f51 *DESCRIPTION
+cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
+ccb57213f2769fac35d6e410e5e4022b *NEWS.md
 31013e1b19d0262223c4cb30540c3a97 *R/ggnewscale-package.R
-bde9b1d3a3327f57ab68e4dc4cc9e407 *R/new-scale.R
+17845d3236d6a0955cf18b0eb735bfc0 *R/new-scale.R
 e7c11a775155b53e3f099b011d787549 *R/utils.R
-e6cde80f63560e45d9ae8397922e020a *README.md
-ce8dcc70c23188f864b4da246917ebe5 *man/figures/README-unnamed-chunk-1-1.png
+e6a3b46c8f84ca6e5095f30ef4e5b9e7 *README.md
+d4263454b47bb611134b09b80b9abb4a *man/figures/README-unnamed-chunk-1-1.png
 067df719705658a24ad3b5fb54e27e2f *man/figures/cividis.svg
 bb1493e9bb9f155111458507a1951bdb *man/figures/inferno.svg
 25d464c5334ea55480f3c8878068b377 *man/figures/logo.png
@@ -14,5 +14,7 @@ bb1493e9bb9f155111458507a1951bdb *man/figures/inferno.svg
 4f0bc5d746799c974095f104b19fde0a *man/figures/plasma.svg
 bf03e88a28055bd55f04d80b2b8be23a *man/figures/ring.svg
 045bea2a6eb5768d4439d1301019f966 *man/figures/viridis.svg
-ced812301a33e66e05eb9d79c3d255ff *man/ggnewscale-package.Rd
+f5f7aae07ba222236ff5a5d2167ec0ac *man/ggnewscale-package.Rd
 d93146d1374b2fe6cd745d7dc18078af *man/new_scale.Rd
+34991fb1df14823041e593300f905151 *tests/testthat.R
+637772f6793a48365c3805bf5b64320a *tests/testthat/test-newscale.R
