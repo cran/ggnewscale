@@ -1,11 +1,11 @@
-7c2a66ac5fc63d50be484a69fa080f51 *DESCRIPTION
+e129ea9ef8e2a56b58a2a736b0689314 *DESCRIPTION
 cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
-ccb57213f2769fac35d6e410e5e4022b *NEWS.md
+d97a7ddc9aac2ef9a3461559417122a2 *NEWS.md
 31013e1b19d0262223c4cb30540c3a97 *R/ggnewscale-package.R
-17845d3236d6a0955cf18b0eb735bfc0 *R/new-scale.R
+c9e6154296d48b736e9e9058f4b9e0aa *R/new-scale.R
 e7c11a775155b53e3f099b011d787549 *R/utils.R
-e6a3b46c8f84ca6e5095f30ef4e5b9e7 *README.md
-d4263454b47bb611134b09b80b9abb4a *man/figures/README-unnamed-chunk-1-1.png
+3e9fcf069a479da1a5adbee98067bc70 *README.md
+10bc4e7eec95a4535e28b9ee243e808e *man/figures/README-unnamed-chunk-1-1.png
 067df719705658a24ad3b5fb54e27e2f *man/figures/cividis.svg
 bb1493e9bb9f155111458507a1951bdb *man/figures/inferno.svg
 25d464c5334ea55480f3c8878068b377 *man/figures/logo.png
