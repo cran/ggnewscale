@@ -1,7 +1,7 @@
 Package: ggnewscale
 Language: en-GB
 Title: Multiple Fill and Colour Scales in 'ggplot2'
-Version: 0.4.2
+Version: 0.4.3
 Authors@R: 
     person(given = "Elio",
            family = "Campitelli",
@@ -14,10 +14,10 @@ Encoding: UTF-8
 LazyData: true
 Imports: ggplot2 (>= 3.0.0)
 RoxygenNote: 7.1.1
-Suggests: testthat
+Suggests: testthat, vdiffr
 NeedsCompilation: no
-Packaged: 2020-07-31 22:29:33 UTC; elio
+Packaged: 2020-08-25 03:22:16 UTC; elio
 Author: Elio Campitelli [cre, aut] (<https://orcid.org/0000-0002-7742-9230>)
 Maintainer: Elio Campitelli <elio.campitelli@cima.fcen.uba.ar>
 Repository: CRAN
-Date/Publication: 2020-08-01 05:10:02 UTC
+Date/Publication: 2020-08-27 11:40:12 UTC

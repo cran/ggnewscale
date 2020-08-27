@@ -1,8 +1,8 @@
-e129ea9ef8e2a56b58a2a736b0689314 *DESCRIPTION
+9f2f630c867f30be7ef9b1784a86111e *DESCRIPTION
 cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
-d97a7ddc9aac2ef9a3461559417122a2 *NEWS.md
+1f98037ae4fdad9d59f6b48e0f15604d *NEWS.md
 31013e1b19d0262223c4cb30540c3a97 *R/ggnewscale-package.R
-c9e6154296d48b736e9e9058f4b9e0aa *R/new-scale.R
+00789cb49764094b3985b69b0a42b164 *R/new-scale.R
 e7c11a775155b53e3f099b011d787549 *R/utils.R
 3e9fcf069a479da1a5adbee98067bc70 *README.md
 10bc4e7eec95a4535e28b9ee243e808e *man/figures/README-unnamed-chunk-1-1.png
@@ -16,5 +16,8 @@ bf03e88a28055bd55f04d80b2b8be23a *man/figures/ring.svg
 045bea2a6eb5768d4439d1301019f966 *man/figures/viridis.svg
 f5f7aae07ba222236ff5a5d2167ec0ac *man/ggnewscale-package.Rd
 d93146d1374b2fe6cd745d7dc18078af *man/new_scale.Rd
+dee366d050f18a1eb7a190b1e7528693 *tests/figs/deps.txt
+ce9d7c4276ae1d97d1ec17f9daccd626 *tests/figs/tests/guides.svg
+b61f29849c2fad3e96d1bfd476c03d9e *tests/figs/tests/guides2.svg
 34991fb1df14823041e593300f905151 *tests/testthat.R
-637772f6793a48365c3805bf5b64320a *tests/testthat/test-newscale.R
+e64a5cbdaf8ca3e1f67c7a8911ea0e04 *tests/testthat/test-newscale.R
