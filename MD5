@@ -1,6 +1,6 @@
-024b9e18edab060f0e4f3407cb317854 *DESCRIPTION
+da6db4abd57ac8cc85c2c1db31a1e555 *DESCRIPTION
 cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
-3683eaaf726b6eace72227dcc6ac2994 *NEWS.md
+faf5bdf610df0e7beb6985df2a683598 *NEWS.md
 31013e1b19d0262223c4cb30540c3a97 *R/ggnewscale-package.R
 14a6da66aeeea07fa6d4c7516a689242 *R/new-scale.R
 e7c11a775155b53e3f099b011d787549 *R/utils.R
@@ -21,5 +21,5 @@ ce9d7c4276ae1d97d1ec17f9daccd626 *tests/figs/tests/guides.svg
 b61f29849c2fad3e96d1bfd476c03d9e *tests/figs/tests/guides2.svg
 21555ab74d2fb13f9019d52517d9ce56 *tests/figs/tests/many-layers.svg
 34991fb1df14823041e593300f905151 *tests/testthat.R
-73896b43cd121c530daae0ac1b7efdb8 *tests/testthat/Rplots.pdf
-b1661b2c658629ada1b8a56395f942a2 *tests/testthat/test-newscale.R
+42393c09c75cf6a6af1e3fa0fd7174aa *tests/testthat/Rplots.pdf
+39d10bdea7f9f2b15eb910b7f0405f07 *tests/testthat/test-newscale.R
