@@ -1,8 +1,12 @@
+# ggnewscale 0.4.8
+
+-   Updates documentation to conform to latest CRAN HTML5 requirements.
+
 # ggnewscale 0.4.7
 
 ## Bugfixes
 
--   `new_scale()` respects `override.aes` arguments (#98, thanks @jgabry)
+-   `new_scale()` respects `override.aes` arguments (#43, thanks @jgabry)
 
 # ggnewscale 0.4.6
 
