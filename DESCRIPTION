@@ -1,8 +1,7 @@
 Package: ggnewscale
 Language: en-GB
-Date: 2022-10-03
 Title: Multiple Fill and Colour Scales in 'ggplot2'
-Version: 0.4.8
+Version: 0.4.9
 Authors@R: 
     person(given = "Elio",
            family = "Campitelli",
@@ -15,11 +14,11 @@ URL: https://eliocamp.github.io/ggnewscale/
 BugReports: https://github.com/eliocamp/ggnewscale/issues
 Encoding: UTF-8
 Imports: ggplot2 (>= 3.0.0)
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Suggests: testthat, vdiffr, covr
 NeedsCompilation: no
-Packaged: 2022-10-06 14:18:21 UTC; elio
+Packaged: 2023-05-24 16:01:55 UTC; elio
 Author: Elio Campitelli [cre, aut] (<https://orcid.org/0000-0002-7742-9230>)
 Maintainer: Elio Campitelli <elio.campitelli@cima.fcen.uba.ar>
 Repository: CRAN
-Date/Publication: 2022-10-06 15:00:02 UTC
+Date/Publication: 2023-05-25 07:30:02 UTC
