@@ -1,3 +1,11 @@
+# ggnewscale 0.5.0
+
+No new features, but a relatively important rewrite of the internals and updated dependency on ggplot2 3.5.0 to support the new Guides system (and *only* the new one).
+
+## Bugfixes
+
+-   Layers will retain custom attributes. (#65, @rsh52)
+
 # ggnewscale 0.4.10
 
 # ggnewscale 0.4.9

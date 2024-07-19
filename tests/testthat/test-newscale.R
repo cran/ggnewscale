@@ -98,7 +98,7 @@ test_that("works with many layers", {
   layer <- function(number) {
     list(new_scale_fill(),
          geom_tile(data = ~.x[.x$x == number, ], aes(fill = z)),
-         scale_fill_brewer(name = number, palette = number, guide = guide_legend(order = number))
+         scale_fill_brewer(name = number, palette = number*2, guide = guide_legend(order = number))
     )
   }
   g <- ggplot(data, aes(x, y)) +
@@ -108,6 +108,28 @@ test_that("works with many layers", {
     layer(4)
 
   vdiffr::expect_doppelganger("many_layers", g)
+})
+
+
+test_that("previous layers don't change" , {
+  data <- expand.grid(y = 1:4, x = 1:4)
+  data$z <- c("a", "b")
+
+  layer <- function(number) {
+    list(new_scale_fill(),
+         geom_tile(data = ~.x[.x$x == number, ], aes(fill = z)),
+         scale_fill_brewer(name = number, palette = number*2, guide = guide_legend(order = number))
+    )
+  }
+  g1 <- ggplot(data, aes(x, y)) +
+    layer(1) +
+    layer(2)
+
+  g2 <- g1 +
+    layer(3) +
+    layer(4)
+
+  expect_equal(g2$layers[[1]]$mapping, g1$layers[[1]]$mapping)
 })
 
 
@@ -161,4 +183,19 @@ test_that("using implicit mapping works", {
     layer_implicit(4)
 
   vdiffr::expect_doppelganger("implicit mapping", g)
+})
+
+
+test_that("custom attributes are retained", {
+  g <- ggplot(mtcars, aes(cyl, disp)) +
+    geom_point()
+
+  attr(g$layers[[1]], "my_attribute") <- "I exist!"
+
+  p <- g +
+    new_scale_color() +
+    geom_point()
+
+  expect_equal(attr(p$layers[[1]], "my_attribute"),
+               attr(g$layers[[1]], "my_attribute"))
 })
