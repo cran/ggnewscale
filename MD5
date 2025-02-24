@@ -1,6 +1,6 @@
-852d4703adc2679722975d57d8a729ee *DESCRIPTION
+fc050bb88dc3206c8a54c87165eaea26 *DESCRIPTION
 cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
-3b7a56cc7c0c259c64dd23881aae9370 *NEWS.md
+a8c935eadc3a3976c8972146f68accfa *NEWS.md
 46c47956ba12f5fa640b05d248d22d96 *R/bump-aes-guides.R
 193ed62e164cbc7e4e8f8d30b23ce803 *R/bump-aes-labels.R
 73603a70f3dbce0dc556d5e14b168212 *R/bump-aes-layers.R
@@ -9,9 +9,10 @@ cdf3852edfa5ad360bb7637b8ea36654 *NAMESPACE
 05b13db0cebe5397ea062f41b58a6efc *R/ggplot-add.R
 9256679e29af3f151988664834c84edd *R/new-scale.R
 701332c64d1056f61896a4bc49468f31 *R/utils.R
-b366d5936333a2c1102dd3477d7d7b69 *README.md
+7a17bf310d787d7bf0caa80e450adcef *R/zzz.R
+397a5e5bde39e9203a26ac585edd2f7c *README.md
 10bc4e7eec95a4535e28b9ee243e808e *man/figures/README-unnamed-chunk-1-1.png
-0c1e17d62b263b849778c6d4ec81d28e *man/figures/README-unnamed-chunk-3-1.png
+e2b2eab9b1463ae587a795f58288e9c8 *man/figures/README-unnamed-chunk-3-1.png
 067df719705658a24ad3b5fb54e27e2f *man/figures/cividis.svg
 bb1493e9bb9f155111458507a1951bdb *man/figures/inferno.svg
 25d464c5334ea55480f3c8878068b377 *man/figures/logo.png
